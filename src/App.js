@@ -12,6 +12,7 @@ import AuthProvider from "./context/AuthProvider";
 import Login from "./components/Login/Login";
 import PlaceOrder from "./components/PlaceOrder/PlaceOrder";
 import PrivateRoute from "./components/PrivateRoute/PrivateRoute";
+import NotFound from "./components/NotFound/NotFound";
 
 function App() {
   return (
@@ -40,6 +41,9 @@ function App() {
             </PrivateRoute>
             <Route exact path="/login">
               <Login></Login>
+            </Route>
+            <Route>
+              <NotFound></NotFound>
             </Route>
           </Switch>
           <FooterPage></FooterPage>
