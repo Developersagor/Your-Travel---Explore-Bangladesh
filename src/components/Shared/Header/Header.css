@@ -1,0 +1,11 @@
+.logo {
+  font-weight: 700;
+  background-color: rgb(52, 189, 52);
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+@media (max-width: 450px) {
+  .header {
+    width: 100%;
+  }
+}

@@ -1,0 +1,16 @@
+@media (max-width: 450px) {
+  .order-container {
+    width: 100% !important;
+  }
+  .order-btn {
+    width: 90% !important;
+  }
+}
+@media (max-width: 768px) {
+  .order-container {
+    width: 100% !important;
+  }
+  .order-btn {
+    width: 90% !important;
+  }
+}

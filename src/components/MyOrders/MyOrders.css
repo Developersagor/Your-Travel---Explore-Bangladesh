@@ -1,0 +1,20 @@
+.order-container {
+  padding-bottom: 250px;
+}
+
+@media (max-width: 768px) {
+  .order-container {
+    padding-bottom: 10px;
+  }
+}
+@media (max-width: 450px) {
+  .order-container {
+    padding-bottom: 10px;
+  }
+  .table {
+    font-size: 10px;
+  }
+  .delet-btn {
+    font-size: 10px;
+  }
+}

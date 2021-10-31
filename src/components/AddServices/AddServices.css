@@ -1,0 +1,15 @@
+@media (max-width: 768px) {
+  .form-container {
+    width: 100% !important;
+    margin: 15px;
+  }
+}
+@media (max-width: 450px) {
+  .form-container {
+    width: 100% !important;
+    margin: 10px;
+  }
+}
+.add-service {
+  position: ;
+}
